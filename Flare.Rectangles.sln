@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9AED6C04-FEDB-41C3-9FDE-EB270712028F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{87AD50EE-79A1-4EA0-B05C-FC7B0BC6EBB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{111DAED6-4F62-44C8-A955-13BA06F49A78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{9EC9614D-DDC9-42CF-885F-A9931AFAC6D2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Flare.Rectangles.Shared", "Flare.Rectangles.Shared\Flare.Rectangles.Shared.shproj", "{5D3664E4-2481-4D65-86B4-B0E461096251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flare.Rectangles.Application", "Flare.Rectangles.Application\Flare.Rectangles.Application.csproj", "{CF2FEE03-9D4F-4D50-BA46-9E7391BD7806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flare.Rectangles.Infrastructure", "Flare.Rectangles.Infrastructure\Flare.Rectangles.Infrastructure.csproj", "{B2BB253F-9444-43EE-AB9C-EFFB78B29379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flare.Rectangles.WebApi", "Flare.Rectangles.WebApi\Flare.Rectangles.WebApi.csproj", "{620978E8-D653-4338-A15F-7190E049AE8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF2FEE03-9D4F-4D50-BA46-9E7391BD7806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2FEE03-9D4F-4D50-BA46-9E7391BD7806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2FEE03-9D4F-4D50-BA46-9E7391BD7806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2FEE03-9D4F-4D50-BA46-9E7391BD7806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BB253F-9444-43EE-AB9C-EFFB78B29379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BB253F-9444-43EE-AB9C-EFFB78B29379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BB253F-9444-43EE-AB9C-EFFB78B29379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BB253F-9444-43EE-AB9C-EFFB78B29379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620978E8-D653-4338-A15F-7190E049AE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620978E8-D653-4338-A15F-7190E049AE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620978E8-D653-4338-A15F-7190E049AE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620978E8-D653-4338-A15F-7190E049AE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{111DAED6-4F62-44C8-A955-13BA06F49A78} = {87AD50EE-79A1-4EA0-B05C-FC7B0BC6EBB4}
+		{9EC9614D-DDC9-42CF-885F-A9931AFAC6D2} = {87AD50EE-79A1-4EA0-B05C-FC7B0BC6EBB4}
+		{5D3664E4-2481-4D65-86B4-B0E461096251} = {9AED6C04-FEDB-41C3-9FDE-EB270712028F}
+		{CF2FEE03-9D4F-4D50-BA46-9E7391BD7806} = {111DAED6-4F62-44C8-A955-13BA06F49A78}
+		{B2BB253F-9444-43EE-AB9C-EFFB78B29379} = {111DAED6-4F62-44C8-A955-13BA06F49A78}
+		{620978E8-D653-4338-A15F-7190E049AE8E} = {111DAED6-4F62-44C8-A955-13BA06F49A78}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E54934FA-2213-4928-A68B-C97187466EB2}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Flare.Rectangles.Shared\Flare.Rectangles.Shared.projitems*{5d3664e4-2481-4d65-86b4-b0e461096251}*SharedItemsImports = 13
+		Flare.Rectangles.Shared\Flare.Rectangles.Shared.projitems*{cf2fee03-9d4f-4d50-ba46-9e7391bd7806}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
