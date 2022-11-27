@@ -17,11 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{9EC9614D-D
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Flare.Rectangles.Shared", "Flare.Rectangles.Shared\Flare.Rectangles.Shared.shproj", "{5D3664E4-2481-4D65-86B4-B0E461096251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flare.Rectangles.Application", "Flare.Rectangles.Application\Flare.Rectangles.Application.csproj", "{CF2FEE03-9D4F-4D50-BA46-9E7391BD7806}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flare.Rectangles.Application", "Flare.Rectangles.Application\Flare.Rectangles.Application.csproj", "{CF2FEE03-9D4F-4D50-BA46-9E7391BD7806}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flare.Rectangles.Infrastructure", "Flare.Rectangles.Infrastructure\Flare.Rectangles.Infrastructure.csproj", "{B2BB253F-9444-43EE-AB9C-EFFB78B29379}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flare.Rectangles.Infrastructure", "Flare.Rectangles.Infrastructure\Flare.Rectangles.Infrastructure.csproj", "{B2BB253F-9444-43EE-AB9C-EFFB78B29379}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flare.Rectangles.WebApi", "Flare.Rectangles.WebApi\Flare.Rectangles.WebApi.csproj", "{620978E8-D653-4338-A15F-7190E049AE8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flare.Rectangles.WebApi", "Flare.Rectangles.WebApi\Flare.Rectangles.WebApi.csproj", "{620978E8-D653-4338-A15F-7190E049AE8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flare.Rectangles.Unit.Test", "Flare.Rectangles.Unit.Test\Flare.Rectangles.Unit.Test.csproj", "{EE73D2D7-7908-481B-82CB-F9174B7135A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,8 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D3664E4-2481-4D65-86B4-B0E461096251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3664E4-2481-4D65-86B4-B0E461096251}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF2FEE03-9D4F-4D50-BA46-9E7391BD7806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CF2FEE03-9D4F-4D50-BA46-9E7391BD7806}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF2FEE03-9D4F-4D50-BA46-9E7391BD7806}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +45,10 @@ Global
 		{620978E8-D653-4338-A15F-7190E049AE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{620978E8-D653-4338-A15F-7190E049AE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{620978E8-D653-4338-A15F-7190E049AE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE73D2D7-7908-481B-82CB-F9174B7135A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE73D2D7-7908-481B-82CB-F9174B7135A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE73D2D7-7908-481B-82CB-F9174B7135A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE73D2D7-7908-481B-82CB-F9174B7135A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +60,7 @@ Global
 		{CF2FEE03-9D4F-4D50-BA46-9E7391BD7806} = {111DAED6-4F62-44C8-A955-13BA06F49A78}
 		{B2BB253F-9444-43EE-AB9C-EFFB78B29379} = {111DAED6-4F62-44C8-A955-13BA06F49A78}
 		{620978E8-D653-4338-A15F-7190E049AE8E} = {111DAED6-4F62-44C8-A955-13BA06F49A78}
+		{EE73D2D7-7908-481B-82CB-F9174B7135A1} = {9EC9614D-DDC9-42CF-885F-A9931AFAC6D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E54934FA-2213-4928-A68B-C97187466EB2}

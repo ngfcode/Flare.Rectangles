@@ -12,7 +12,7 @@ public interface IGridService
 		int width,
 		int height);
 
-	DtoResult<RectangleDto> CreateRectangle(
+	DtoResult<RectangleDto> PlaceRectangle(
 		RectangleDto dto);
 
 	ErrorResult DeleteRectangle(
@@ -24,4 +24,6 @@ public interface IGridService
 		int yPos);
 
 	List<RectangleDto> GetRectangles();
+
+	void ClearData();
 }

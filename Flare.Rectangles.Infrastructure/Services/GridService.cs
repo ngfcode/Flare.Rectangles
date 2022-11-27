@@ -42,7 +42,7 @@ public sealed class GridService : IGridService
 		return new DtoResult<GridLayoutDto>(errors);
 	}
 
-	public DtoResult<RectangleDto> CreateRectangle(
+	public DtoResult<RectangleDto> PlaceRectangle(
 		RectangleDto dto)
 	{
 		if (GridLayoutDto is null)
@@ -118,5 +118,11 @@ public sealed class GridService : IGridService
 			.Select(_ => _.ErrorMessage)
 			.ToList();
 		return new ErrorResult(errors);
+	}
+
+	// This is a utility method for testing purposes only
+	public void ClearData()
+	{
+		_data = null;
 	}
 }

@@ -29,7 +29,7 @@ public class GridServiceController : ControllerBase
 	public async Task<IActionResult> CreateRectangle(
 		RectangleDto dto)
 	{
-		var result = _service.CreateRectangle(dto);
+		var result = _service.PlaceRectangle(dto);
 		return result.NoErrors ? Ok(result) : BadRequest(result);
 	}
 
